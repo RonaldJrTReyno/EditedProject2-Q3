@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="initial-scale=1">
+        <title>The Green Agenda</title>
+        <link rel="stylesheet" href="question-styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    </head>
+    <body>
+        <hr class="hr1">
+        <nav>
+            <ul class = navbar>
+                <li class = navcontent><a href = "../quiz-main.html">Back</a></li>
+            </ul>
+        </nav>
+        
+        <header>
+            <h1 class = "titleheader" id = "question_title"></h1>
+
+            <h2 class = "descriptionheader" id = "result_title">Choose from one of the 4 choices below:
+            </h2>
+        </header>
+        
+        <section>
+            <ul class = "choices">
+                <li> 
+                    <button id = "c1" onclick = "cclick(1)">
+                    A.Climate change is the global increase of the surface 
+                    temperature of the planet due to an abnormal rise in
+                    heat-trapping greenhouse gasses such as carbon dioxide.
+                    </button>                    
+                </li>
+                <li>
+                    <button id = "c2" onclick = "cclick(2)">
+                    B.Climate change is the long-term changes and shifts of the 
+                    Earth's temperature and weather patterns.
+                    </button>  
+
+                </li>
+                <li>
+                    <button id = "c3" onclick = "cclick(3)">
+                    C.Climate change is the long-term changes and shifts of the 
+                    Earth's temperature and weather patterns.
+                    </button>  
+
+                </li>
+                <li>
+                    <button id = "c4" onclick = "cclick(4)">
+                    D.Climate change is the long-term changes and shifts of the 
+                    Earth's temperature and weather patterns.
+                    </button>  
+                </li>
+            </ul>  
+        </section>
+        <section class = "nextcontainer">
+            <button id = "next" onclick = "cclick(5)">
+                Continue
+            </button>  
+        </section>
+        <script src = "quiz-script.js" ></script>
+    </body>
+</html>

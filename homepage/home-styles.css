@@ -1,0 +1,176 @@
+
+body {
+    background-color:white;
+    margin:0;
+}
+
+.titleheader {
+    color:  white;
+    font-weight: bolder;
+    font-size:5em;
+
+    padding-left: 5%;
+    position: absolute;
+    top: 39%
+}
+
+.descriptionheader {
+    color:  white;
+    font-weight: bold;
+    font-size: 2em;
+
+    padding-left: 10%;
+    padding-right: 20%;
+    position: absolute;
+    top: 53%;
+}
+
+section{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.sec1{
+    background-color: #e7e7e7;
+    height: 100%;
+    margin: 2%;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+.sec1img {
+    float:left;
+    width: 50%;
+    height: 100%;
+    
+   
+}
+
+.cctitle {
+    color:  black;
+    font-weight: bold;
+    font-size: 3vw;
+    margin: 0;
+    padding-top: 5%;
+    padding-left: 55%;
+    padding-right: 5%;
+}
+
+.ccdescription {
+    color:  black;
+    font-weight: lighter;
+    font-size: 1.5vw;
+    text-align: justify;
+    margin: 0;
+    padding-top: 2%;
+    padding-left: 58%;
+    padding-right: 8%;
+}
+
+.sec2{
+    background-color: #e7e7e7;
+    height: 100%;
+    margin: 2%;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+.sec2img {
+    float:right;
+    width: 50%;
+    height: 100%;
+    
+   
+}
+
+.actitle {
+    color:  black;
+    font-weight: bold;
+    font-size: 3vw;
+    margin: 0;
+    padding-top: 5%;
+    padding-right: 55%;
+    padding-left: 5%;
+}
+
+.acdescription {
+    color:  black;
+    font-weight: lighter;
+    font-size: 1.5vw;
+    text-align: justify;
+    margin: 0;
+    padding-top: 2%;
+    padding-right: 58%;
+    padding-left: 8%;
+}
+
+.hr1{
+    background-color:black;
+    height: 6%;
+    width: 100%;
+    margin: 0;
+    border: none;
+
+}
+.hr2{
+    background-color:#201c1c;
+    height: 100px;
+    min-height: 1em;
+    margin: 0;
+    border: none;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0%;
+
+}
+
+.navcontent {
+    float: left;
+}
+
+.navcontent a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    padding-left: 4vw;
+}
+
+.headerimagecontainer {    
+    height:fit-content;
+    z-index: -1;
+}
+
+.gradient {
+    color: aliceblue;
+    background-image: linear-gradient(to top, #12171a, transparent);
+    opacity: .9;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+     z-index: -1;
+}
+
+img {
+    width:101%;
+    height: 30%;
+    min-height: 800px;
+    border: none;
+    object-fit: cover;
+}
+
+
+.navcontent a:hover{
+    color: antiquewhite;
+    font-size: 1.1em;
+}
+

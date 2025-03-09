@@ -1,0 +1,123 @@
+
+body {
+    background-color:white;
+    margin:0;
+    font-family: Poppins;
+}
+
+.titleheader {
+    color:  black;
+    font-weight: bolder;
+    font-size:4em;
+    
+    margin: 120px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 8%;
+    padding-right: 8%;
+    text-align: center;
+
+}
+
+.descriptionheader {
+    color:  black;
+    font-weight: bold;
+    font-size: 2em;
+
+    margin: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    
+}
+
+#bcontainer {
+    text-align: center;
+    margin: 140px;
+    
+   
+}
+
+button {
+    background-color: white;
+    border-width: 5px;
+    border-color: black;
+    border: solid;
+    padding: 20px;
+    margin: 10px;
+    font-size: 2em;
+    
+    transition-property: scale, background-color;
+    transition-duration: -1.1s;
+    transition-timing-function: ease-in-out;
+    
+    z-index: 2;
+}
+
+button:hover{
+    background-color: lightgrey;
+    scale: 1.1 1.1;
+}
+button:active{
+    background-color: grey;
+    scale: 1 1;
+}
+
+.choices{
+    list-style-type: none;
+    overflow: hidden;
+    text-align: left;
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+    z-index: -1
+}
+
+.nextcontainer {
+    text-align: center;
+}
+
+#next{
+    visibility:hidden;
+}
+
+.hr1{
+    background-color:black;
+    height: 55px;
+    width: 100%;
+    margin: 0;
+    border: none;
+}
+.hr2{
+    background-color:#201c1c;
+    height: 100px;
+    min-height: 1em;
+    margin: 0;
+    border: none;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0%;
+
+}
+
+.navcontent {
+    float: left;
+}
+
+.navcontent a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    padding-left: 4vw;
+}

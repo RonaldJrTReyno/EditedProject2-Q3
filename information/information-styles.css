@@ -1,0 +1,303 @@
+
+body {
+    background-color:white;
+    margin:0;
+}
+
+.titleheader {
+    color:  white;
+    font-weight: bolder;
+    font-size:3.5em;
+
+    padding-left: 5%;
+    position: absolute;
+    top: 18%
+}
+
+.headerimage {
+    display: block;
+    z-index: -1;
+    border: none;
+    object-fit: contain;
+    width: 1920px; height: 343px;
+    max-height: 6em;
+    zoom: 400%;
+    background: url(images/sprite_animation.png) -32px -452px;
+    animation: header 0.5s steps(4) infinite;
+}
+@keyframes header{
+    from{background-position-x: 0;}
+    to{background-position-x: -1992px;}
+}
+
+.headerfiller {
+    display: block;
+    border: none;
+    object-fit: cover;
+    min-height: 24em;
+    width:101%;
+    height: 24em;
+}
+.spritecut {
+    height: 10em;
+}
+
+.descriptionheader {
+    color:  white;
+    font-weight: normal;
+    font-size: 1.5em;
+
+    padding-left: 10%;
+    padding-right: 10%;
+    position: absolute;
+    top: 28%;
+}
+
+h3 {
+    color:  white;
+    font-weight: bold;
+    font-size: -45vw;
+    margin-top: 46%;
+    margin-bottom: 0%;
+    padding-left: 10vw;
+}
+
+.sec1{
+    background-color: white;
+    height: 100%;
+    margin: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 31%;
+    float: left;
+    
+}
+
+.pollutiontitle {
+    display: block;
+    font-weight: bolder;
+    font-size: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+    text-align: center;
+    transition-property: scale;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.polcontainer{
+    color:  black;
+    font-weight: lighter;
+    font-size: 1.2vw;
+    text-align: center;
+    margin-top: 2em;
+    padding-left: 22%;
+    padding-right: 22%;
+    transition-property: scale;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+
+.polcontainer:hover{
+    color: darkred;
+    scale: 1.2 1.2;
+}
+
+
+.sec1img {
+    object-fit: cover;
+    display: block;
+    width: 90%;
+    height: 100%;
+    max-height: 15em;
+    min-height: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5em;
+    transition-property: max-height;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.sec1img:hover{
+    max-height: 18em;
+}
+
+.airtitle {
+    color:  black;
+    font-weight: bolder;
+    font-size: 1.5vw;
+    margin: 0;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.airdescription {
+    color:  black;
+    display: block;
+    font-weight: lighter;
+    font-size: 1.2vw;
+    text-align: justify;
+    margin: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.sec2{
+    background-color: white;
+    height: 100%;
+    margin: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 31%;
+    float: left;
+    
+}
+
+.sec2img {
+    object-fit: cover;
+    display: block;
+    width: 90%;
+    height: 100%;
+    max-height: 15em;
+    min-height: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5em;
+    transition-property: max-height;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.sec2img:hover {
+    max-height: 18em;
+}
+
+.landtitle {
+    color:  black;
+    font-weight: bolder;
+    font-size: 1.5vw;
+    margin: 0;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.landdescription {
+    color:  black;
+    font-weight: lighter;
+    font-size: 1.2vw;
+    text-align: justify;
+    margin: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.sec3{
+    background-color: white;
+    height: 100%;
+    margin: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 31%;
+    float: left;
+    
+    
+}
+
+.sec3img {
+    
+    object-fit: cover;
+    display: block;
+    width: 90%;
+    height: 100%;
+    max-height: 15em;
+    min-height: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5em;
+    transition-property: max-height;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.sec3img:hover {
+    max-height: 18em;
+}
+
+.watertitle {
+    color:  black;
+    font-weight: bolder;
+    font-size: 1.5vw;
+    margin: 0;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.waterdescription {
+    color:  black;
+    font-weight: lighter;
+    font-size: 1.2vw;
+    text-align: justify;
+    margin: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.hr1{
+    background-color:black;
+    height: 6%;
+    width: 100%;
+    margin: 0;
+    border: none;
+
+}
+.hr2{
+    background-color:#201c1c;
+    height: 100px;
+    min-height: 1em;
+    margin: 0;
+    border: none;
+}
+
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0%;
+    
+
+}
+
+.navcontent {
+    float: left;
+    
+}
+
+.navcontent a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    padding-left: 4vw;
+}
+
+.navcontent a:hover{
+    color: antiquewhite;
+    font-size: 1.1em;
+}
+
+
+
